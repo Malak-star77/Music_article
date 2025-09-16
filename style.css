@@ -1,0 +1,128 @@
+    body {
+        background-color: #e6e6fa;
+    }
+    .content {
+      margin: 0 auto;
+      background-color: white;
+      padding: 10px;
+      max-width: 550px;
+      text-align: center;
+      border-radius: 16px;
+    }
+    h1 {
+      font-size: 45px;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .images {
+      justify-content: center;
+      padding: 20px;
+    }
+    p {
+        display: block;
+        padding: 40px;
+        line-height: 23px;
+        text-align: justify;
+    }
+    .change-theme-button {
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(74, 74, 74);
+    }
+    .change-theme-button:hover {
+        background-color: black;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    .learn-music-button {
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        background-color: blueviolet;
+    }
+    .learn-music-button:hover {
+        background-color: purple;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    footer {
+        margin-top : 45px;
+    }
+    .malak {
+        font-weight: bold;
+    }
+    .img1 {
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+    .img1:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .img2 {
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        width: 250px;
+    }
+    .img2:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .img3 {
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        width: 250px;   
+    }
+    .img3:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .img4 {
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+         width: 250px;
+    }
+    .img4:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .img5 {
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        width: 250px;
+    }
+    .img5:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+   .epunda-sans {
+  font-family: "Epunda Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+        grid-gap: 20px;
+        justify-content: center;
+    }
+    .dark-theme {
+        background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+        color: white;
+    }
+    .dark-theme .content {
+       background-color: #565d67;
+    }
+    a {
+        color: rgb(241, 122, 142);
+    }
